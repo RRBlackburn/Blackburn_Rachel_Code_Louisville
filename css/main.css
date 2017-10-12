@@ -59,6 +59,7 @@ body {
 }
 
 body {
+    position: relative;
     background-color: #6d5a99;
     font-family: Helvetica, sans-serif;
 }
@@ -92,7 +93,6 @@ body {
 
 /* The circles on the timeline */
 .container::after {
-
     content: '';
     position: absolute;
     width: 25px;
@@ -106,11 +106,13 @@ body {
 }
 
 /* Place the container to the left */
+/*Affects Container Left*/
 .left {
     left: 0;
 }
 
 /* Place the container to the right */
+/*Affects Container Right*/
 .right {
     left: 50%;
 }
@@ -149,16 +151,18 @@ body {
     left: -16px;
 }
 
-/* The actual content */
+/* The White Box Around The Text */
 .content {
-    padding: 20px 30px;
+    text-align:center;
+    word-wrap:break-word;
+    padding: 5px 5px;
     background-color: white;
     position: relative;
     border-radius: 6px;
 }
 
 /******* Media queries FOR TIMELINE screens less than 600px wide *******/
-@media all and (max-width: 600px) {
+@media all and (max-width: 800px) {
   /* Place the timelime to the left */
   .timeline::after {
     left: 31px;
@@ -247,7 +251,7 @@ button:hover, a:hover {
 /*Adjust Slider Level of Progress Here*/
 .html {width: 10%; background-color: #4CAF50;} /* Green */
 .css {width: 10%; background-color: #2196F3;} /* Blue */
-.js {width: 10%; background-color: #f44336;} /* Red */
+.js {width: 40%; background-color: #f44336;} /* Red */
 .graphics {width: 10%; background-color: #808080;} /* Dark Grey */
 
 * {box-sizing:border-box}
