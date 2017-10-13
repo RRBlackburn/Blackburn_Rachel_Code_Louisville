@@ -1,12 +1,10 @@
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myfunction() {
-    var x = document.getElementById("mytopnav");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
+myfunction=function() {
+    $('#mytopnav').click(function(){
+        $('#mytopnav').hide();
+
     }
-}
+};
 
 /*
 var slideIndex = 1;
