@@ -1,13 +1,12 @@
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
+myfunction=function() {
+    $('#mytopnav').click(function(){
+        $('#mytopnav').hide();
 
+    }
+};
+
+/*
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -33,4 +32,12 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-}
+}*/
+
+
+/* This is for the scroll bar*/
+$(document).ready(function () {
+    if (!$.browser.webkit) {
+        $('.wrapper').html('<p>Sorry! Non webkit users. :(</p>');
+    }
+});
