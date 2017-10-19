@@ -29,7 +29,9 @@
 .column {   
     width: 100%;
     padding: 10px;
-
+    -moz-box-shadow:    inset 0 0 20px #000000;
+    -webkit-box-shadow: inset 0 0 20px #000000;
+    box-shadow:         inset 0 0 20px #000000;
 }
 
 /* Clear floats after the columns */
@@ -84,7 +86,7 @@ body {
        background-color: white;
     top: 0;
     bottom: 0;
-    left: 50%;
+    left: 49%;
     margin-left: -3px;
 }
 
@@ -106,7 +108,7 @@ body {
     background-color: #8A508A;
     border: 4px solid #E4B181;
     top: 15px;
-    border-radius: 50%;
+    border-radius: 40%;
     z-index: 4;
 }
 
@@ -165,7 +167,17 @@ body {
     position: relative;
     border-radius: 6px;
 }
+/*This affects the scroll box for the timeline. Shadowy stuff. Wooooo~*/
 
+#timelinebox{
+    -moz-box-shadow:    inset 0 0 20px #000000;
+    -webkit-box-shadow: inset 0 0 20px #000000;
+    box-shadow:         inset 0 0 20px #000000;
+
+}
+
+
+/*This stuff affects the ID stuff*/
 
 
 .card {
@@ -266,5 +278,9 @@ button:hover, a:hover {
     float:left; 
     width:50%;
  }
+ 
 
+}
+
+@media all and (max-height: 300px){
 }
