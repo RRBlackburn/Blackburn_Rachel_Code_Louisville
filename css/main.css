@@ -43,23 +43,6 @@
 }
 
 
-/* Hide the link that should open and close the topnav on small screens 
-.topnav .icon {
-    display: none;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-}
-*/
-
-
-
-
 /**** THIS CREATES THE TIMELINE ****/
 * {
     box-sizing: border-box;
@@ -90,6 +73,11 @@ body {
     margin-left: -3px;
 }
 
+
+/* Timeline Box*/
+#timelinebox{
+overflow:scroll; 
+overflow-x:hidden;}
 /* Container around content */
 .container {
     padding: 10px 40px;
@@ -279,7 +267,13 @@ button:hover, a:hover {
     width:50%;
  }
  
+ .timeline{
+height:938px;
 
+ }
+#timelinebox{
+    height:938px;
+} 
 }
 
 @media all and (max-height: 300px){
