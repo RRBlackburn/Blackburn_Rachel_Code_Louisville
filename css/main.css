@@ -231,8 +231,77 @@ button:hover, a:hover {
 * {box-sizing:border-box}
 
 
+#content {
+    height: 45em;
+  } 
+  
+  #joke {
+    max-width: 30em;
+    color: white;
+    font-family:"Trajan";
+    text-align:center;
+    margin: auto;
+    text-transform: lowercase;
+    line-height: 145%;
+    font-size: 2em;
+    font-variant: small-caps;
+   
+  
+  }
+  
+  .containerjokes {
+    padding-top: 6em;
+    text-align: center;
+  }
+  
+  #b-nav {
+    padding-bottom: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 2em;
+    text-align: center;
+  }
+  
+  #gen {
+    outline: none;
+    padding-top: 5px;
+    text-decoration: none;
+    opacity: 0.7;
+    background-color: black;
+    color: white;
+    border: thick solid black;
+    height: 50px;
+    width:inherit;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+  
+  #gen:hover {
+    background-color: white;
+    color: black;
+    border: thin solid white;
+    opacity: 0.4;
+  }
+  
+  
+  
+ 
+  
+  
 
 /******* Media queries FOR TIMELINE screens less than 600px wide *******/
+/*joke*/
+@media screen 
+and (max-device-width: 800px) 
+ and (max-device-height: 640px) 
+ and (-webkit-device-pixel-ratio: 2) 
+ and (orientation: portrait) {
+   p {
+     font-size: 1em;
+   }
+}
+
+
 @media all and (max-width: 600px) {
   /* Place the timelime to the left */
   .timeline::after {
