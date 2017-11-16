@@ -2,7 +2,7 @@
 [ Dated 11/18/2017 ]
 During the course of the last three months I have been attending a job training workshop / class / bootcamp called Code Louisville. The training included a variety of basic techniques and knowledge into the world of web design. One of our requirements for graduation was to build a website / project to demonstrate our knowledge of these skills.
 
-The website's concept started and will end in its finality as a resource page for dungeons and dragons players. [ DnD being a tabletop game placed with dice, paper, sometimes mini figurines and often handrawn maps. ] Our hope for it [ by saying our, there are others interested in helping continue its developement ] is that it will develope into an application strictly for phone, with versions for browsers as well where artistic ability can be combined with programming to create an immersive adventuring expirience. 
+The website's concept started and will end in its finality as a resource page for dungeons and dragons players. [ DnD being a tabletop game placed with dice, paper, sometimes mini figurines and often handrawn maps. ] Our hope for it [ by saying our, there are others interested in helping continue its developement ] is that it will develope into an application strictly for phone, with versions for browsers as well where artistic ability can be combined with programming to create an immersive adventuring expierience. 
 
 In this file you will find the beginnings of what I hope will be a grand endevour. You will see the bare bones of what I am working through. Web pages have been skeletoned into place and a few place holders alotted. Herein I shall explain them.
 
