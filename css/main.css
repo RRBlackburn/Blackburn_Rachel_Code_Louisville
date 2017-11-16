@@ -1,4 +1,7 @@
- /* Add a black background color to the top navigation */
+body {
+    box-shadow: inset 0 0 490px black;}
+
+/* Add a black background color to the top navigation */
  .topnav {
     background-color: #24103B;
     overflow: hidden;
@@ -230,7 +233,7 @@ button:hover, a:hover {
 /* Make sure that padding behaves as expected */
 * {box-sizing:border-box}
 
-
+/** this starts the joke**/
 #content {
     height: 45em;
   } 
@@ -250,6 +253,7 @@ button:hover, a:hover {
   }
   
   .containerjokes {
+    padding:10px;
     padding-top: 6em;
     text-align: center;
   }
@@ -274,6 +278,7 @@ button:hover, a:hover {
     width:inherit;
     border-radius: 10px;
     transition: 0.5s;
+    margin-right:30px;
   }
   
   #gen:hover {
@@ -340,11 +345,11 @@ and (max-device-width: 800px)
  }
  
  .timeline{
-height:938px;
+height:1030px;
 
  }
 #timelinebox{
-    height:938px;
+    height:1030px;
 } 
 }
 
