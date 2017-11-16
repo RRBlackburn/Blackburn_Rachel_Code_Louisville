@@ -278,7 +278,11 @@ button:hover, a:hover {
     width:inherit;
     border-radius: 10px;
     transition: 0.5s;
+<<<<<<< HEAD
     margin-right:30px;
+=======
+    margin-right: 30px;
+>>>>>>> a97a8d52f7a2cce12ef1958fc3c6223e637ed5dc
   }
   
   #gen:hover {
